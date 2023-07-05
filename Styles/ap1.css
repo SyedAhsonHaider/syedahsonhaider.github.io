@@ -60,7 +60,7 @@
     height: 98%;
 }
 
-@media (max-height: 1100px) {
+@media (max-height: 1250px) {
     .ap1 .cards .card .details img {
         display: none;
     }
@@ -68,7 +68,10 @@
         height: 85%;
     }
     .cards {
-        bottom: 13%;
+        bottom: -17%;
+    }
+    .ap1 #pa {
+        top: 32%;
     }
 }
 

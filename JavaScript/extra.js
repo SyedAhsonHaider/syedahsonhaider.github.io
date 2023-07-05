@@ -5,7 +5,7 @@ $(document).bind('mousewheel', function(e) {
     $(".ap1").show();
     $(".contacts").animate({opacity: '0'}, 0);
     $("#iName").animate({fontSize: "20px"}, 350)
-    $("#name").animate({left: '15%', top: '11%'}, 350);
+    $("#name").animate({left: '15%', top: '0%'}, 350);
     $('.cards').animate({opacity: '0'}, 1)
     $(".nav").animate({opacity: '1'});
 });

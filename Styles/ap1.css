@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.ap1 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: white;
+    left: 14%;
+    top: 20%;
+    position: absolute;
+}
+.ap1 #pa {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: rgb(170, 170, 170);
+    left: 35%;
+    top: 29%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 42%;
+}
+
+
+
+
+.ap1 #profile {
+
+
+    position: absolute;
+    right: 10%;
+    width: 25%;
+    border-radius: 10px;
+    top: 20%;
+}
+
+.cards {
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    grid-template-columns: repeat(auto-fit,minmax(115px,1fr));
+    padding: 42px;
+    grid-gap: 40px;
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    width: 88%;
+    transform: translateX(-50%);
+}
+
+.ap1 .cards .card .details img {
+    width: 100%;
+    height: 197px;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: 0 30%;
+}
+.card{
+    background-color: #1c1b29;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+    height: 98%;
+}
+
+.card1>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #0100ec,
+        #fb36f4
+    );
+}
+.card2>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #2bdce3,
+        #42ffdb
+    );
+}
+.card3>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #ffab1d,
+        #f8501c
+    );
+}
+
+.details{
+    padding: 20px 10px;
+}
+.details>h3{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0 15px 0;
+}
+.details>p{
+    color: #a0a0a0;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+}

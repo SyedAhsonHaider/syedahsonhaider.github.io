@@ -34,6 +34,6 @@ if (!targetElement.classList.contains("text-effect-applied")) {
 
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 if (isMobile) {
-  var url = "http://syedahsonhaider.github.io/test.html";
+  var url = "http://syedahsonhaider.github.io/test";
   $(location).attr('href',url);
 }

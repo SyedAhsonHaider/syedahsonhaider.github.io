@@ -29,3 +29,11 @@ if (!targetElement.classList.contains("text-effect-applied")) {
     iteration += 1 / 3;
   }, 40);
 }
+
+
+
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+if (isMobile) {
+  var url = "http://syedahsonhaider.github.io/test.html";
+  $(location).attr('href',url);
+}

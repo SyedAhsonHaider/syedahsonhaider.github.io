@@ -1,7 +1,7 @@
 $(".nav").animate({opacity: '0'});
 $(".ap1").hide();
 $(".cards").hide()
-$(document).on('wheel', function(e) {
+window.addEventListener('wheel', function(event) {
     $(".ap1").show();
     $(".contacts").animate({opacity: '0'}, 0);
     $("#iName").animate({fontSize: "20px"}, 350);

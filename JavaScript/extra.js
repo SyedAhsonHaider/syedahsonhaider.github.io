@@ -13,7 +13,7 @@ $("#letstalk").click(function(){
     $('.ap1 h1 ').attr('style','transform: translateX(-50%)');
     $(".ap1 h1").animate({left: '50%'}, 1);
     $(".ap1 #profile").animate({opacity: '0'}, 150);
-    $(".ap1 #pa").animate({left: '50%', width: '80%'}, 50);
+    $(".ap1 #pa").animate({left: '50%', width: '95%'}, 50);
     $(".ap1 h1").html('More about me!');
     $(".cards").show()
     $('.cards').animate({opacity: '1'}, 1550)

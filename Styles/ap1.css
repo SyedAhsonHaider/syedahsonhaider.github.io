@@ -42,7 +42,7 @@
     position: absolute;
     bottom: -5%;
     left: 50%;
-    width: 88%;
+    width: 99%;
     transform: translateX(-50%);
 }
 
@@ -68,7 +68,7 @@
         height: 85%;
     }
     .cards {
-        bottom: -17%;
+        bottom: -10%;
     }
     .ap1 #pa {
         top: 32%;
